@@ -13,7 +13,7 @@ function getPhoneBook() {
 	return phoneBook;
 }
 function addContact(contact) {
-	addContact.push(contact);
+	phoneBook.push(contact);
 }
 
 module.exports = {
